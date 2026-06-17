@@ -22,12 +22,11 @@ los scripts de reconstrucción del proyecto de Vivado y la memoria.
 - `presentacion/` — Presentación empleada en la defensa.
 - `codigo/hls/` — Código C++ del módulo de procesamiento y generación
   de vídeo, diseñado mediante Vitis HLS.
-- `codigo/software_microblaze/` — Aplicación de control bare-metal
+- `codigo/software/` — Aplicación de control bare-metal
   ejecutada por el procesador soft-core MicroBlaze.
-- `codigo/vivado/tcl/` — Scripts Tcl para reconstruir el proyecto de
-  Vivado (block design, configuración de IPs y restricciones).
+- `codigo/vivado/` — Scripts Tcl para reconstruir el proyecto de
+  Vivado (block design, configuración de IP y restricciones) y archivos necesarios.
 - `bitstreams/` — Bitstream final verificado del sistema.
-- `resultados/` — Datos de las medidas de caracterización (opcional).
 
 ## Requisitos
 
@@ -37,10 +36,6 @@ los scripts de reconstrucción del proyecto de Vivado y la memoria.
 - Conexión HDMI adaptada como la que se describe en la memoria o módulo de misma conectividad.
 
 ## Reconstrucción del proyecto
-
-1. Abrir Vivado 2019.1.
-2. En la consola Tcl: `source codigo/vivado/tcl/[script].tcl`
-3. Esto regenera el block design y el proyecto completo.
 
 
 Instrucciones detalladas en `codigo/vivado/README_vivado.md`.
