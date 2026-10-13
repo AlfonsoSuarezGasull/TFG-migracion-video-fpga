@@ -101,5 +101,12 @@ los scripts de reconstrucción del proyecto de Vivado y la memoria.
    finalmente, el menú de opciones, con el que el usuario puede interactuar. En
    el monitor se mostrará el vídeo según el modo seleccionado.
 
+## Demostración del funcionamiento en vídeo
+
+En el enlace adjuntado se muestra una demostración del canal de vídeo ampliado funcionando
+en la Arty S7-50. Se muestran todos los modos de funcionamiento y los mensajes de depuración en
+tiempo real.
+- Vídeo de demostración:https://drive.google.com/file/d/1Z_vDhL-_4QQWvivlIxTGCzMjZzGXH38j/view?usp=sharing
+
 
 
